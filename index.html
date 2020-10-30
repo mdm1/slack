@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Slack prototype</title>
+    <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Varela">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <!-- TODO: Slack copycat markup -->
+
+<div class="wrapper">
+  <nav id="sidebar">
+      <div class="sidebar-header">
+          <h3>Le Wagon</h3>
+          <p>Batch 474</p>
+      </div>
+
+      <ul class="list-unstyled components">
+          <li class="section-header-container">
+              <a href="#" class="section-header text-left ml-4 mb-2">Channels</a>
+              <i class="fas fa-plus mr-4 mt-1"></i>
+          <li class="section-content text-left ml-4 selected">
+              <i class="fab fa-slack-hash mr-2 mt-1"></i>
+              <a href="#">ceo chat</a>
+          </li>
+          <li class="section-content text-left ml-4">
+              <i class="fab fa-slack-hash mr-2 mt-1"></i>
+              <a href="#">help</a>
+          </li>
+          <li class="section-content text-left ml-4">
+              <i class="fab fa-slack-hash mr-2 mt-1"></i>
+              <a href="#">design</a>
+          </li>
+          <li class="section-content text-left ml-4">
+              <i class="fas fa-lock mr-2 mt-1"></i>
+              <a href="#">halloween challenge cheat codes</a>
+          </li>
+      </ul>
+
+      <ul class="list-unstyled components">
+          <li class="section-header-container">
+              <a href="#" class="section-header text-left ml-4 mb-2">Direct Messages</a>
+              <i class="fas fa-plus mr-4 mt-1"></i>
+          <li class="section-content text-left ml-4">
+              <i class="fas fa-circle online mr-2 mt-1"></i>
+              <a href="#">Zuckerberg</a>
+          </li>
+          <li class="section-content text-left ml-4">
+              <i class="fas fa-circle online mr-2 mt-1"></i>
+              <a href="#">Dorsey</a>
+          </li>
+          <li class="section-content text-left ml-4">
+              <i class="fas fa-circle online mr-2 mt-1"></i>
+              <a href="#">Cook</a>
+          </li>
+          <li class="section-content text-left ml-4">
+              <i class="fas fa-circle offline mr-2 mt-1"></i>
+              <a href="#">Sandberg</a>
+          </li>
+          <li class="section-content text-left ml-4">
+              <i class="fas fa-circle offline mr-2 mt-1"></i>
+              <a href="#">Paillard</a>
+          </li>
+      </ul>
+  </nav>
+
+  <div class="page-container">
+    <div class="navbar-minimalist">
+      <i class="fab fa-slack-hash lg ml-4 mr-2"></i>
+      <h2 class="mt-3">ceo chat</h2>
+    </div>
+
+    <div class="chat">
+      <div class="message">
+        <img src="images/zuckerberg.jpg" alt="Zuck" class="avatar">
+        <div class="message-text">
+          <h2>Zuckerberg</h2>
+          <p>Growing increasingly concerned... sources telling me Le Wagon Batch 474 have mastered bootstrap and might soon outdo us all for design!</p>
+        </div>
+      </div>
+
+      <div class="message">
+        <img src="images/dorsey.jpg" alt="Zuck" class="avatar">
+        <div class="message-text">
+          <h2>Dorsey</h2>
+          <p>We could give them all jobs? Bring them on side!</p>
+        </div>
+      </div>
+
+      <div class="message mb-4">
+        <img src="images/cook.jpg" alt="Zuck" class="avatar">
+        <div class="message-text">
+          <h2>Cook</h2>
+          <p>Another idea - let's infiltrate their Zoom lectures and see how its done</p>
+        </div>
+      </div>
+
+      <div class="break border-bottom border-top">
+        <p class="text-center mt-4 mb-4">Now</p>
+      </div>
+
+      <div class="message">
+        <img src="images/zuckerberg.jpg" alt="Zuck" class="avatar">
+        <div class="message-text">
+          <h2>Zuckerberg</h2>
+          <p>How did that go?</p>
+        </div>
+      </div>
+
+      <div class="message">
+        <img src="images/cook.jpg" alt="Zuck" class="avatar">
+        <div class="message-text">
+          <h2>Cook</h2>
+          <p>I think they talk in code? Constant references to Mars and mice. What could it mean?</p>
+        </div>
+      </div>
+
+      <div class="message">
+        <img src="images/dorsey.jpg" alt="Zuck" class="avatar">
+        <div class="message-text">
+          <h2>Dorsey</h2>
+          <p>Uh oh, accidentally overloaded the server causing the Zoom call to crash. Looks like we got away with it though - we'll have to try something else</p>
+        </div>
+      </div>
+
+      <div class="message">
+        <img src="images/zuckerberg.jpg" alt="Zuck" class="avatar">
+        <div class="message-text">
+          <h2>Zuckerberg</h2>
+          <p>I've got it - we go undercover. If we don't turn our cameras on, they'll never know. Assemble, 5pm, today's livecode.</p>
+        </div>
+      </div>
+
+      <div class="message">
+        <img src="images/dorsey.jpg" alt="Zuck" class="avatar">
+        <div class="message-text">
+          <h2>Dorsey</h2>
+          <p>See you there!</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+    <!-- Including Bootstrap JS (with its Popper.js / jQuery dependency) so that dynamic components work -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
